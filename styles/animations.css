@@ -12,3 +12,12 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+.sparks {
+    fill: var(--sparks-filling);
+    opacity: 0;
+  }
+  
+ .main-body, .core {
+    fill:blue;
+    transition: 0.3s fill linear;
+  }
