@@ -1,6 +1,6 @@
 :root {
-    --font-family: "Inter-Variable", sans-serif;
-    --accent-font: 'PressStart2P-Regular', sans-serif;
+    --font-family: "Inter-Variable", fantasy;
+    --accent-font: 'PressStart2P-Regular', fantasy;
     --background-color:#FFFFFF;
     --accent-color:#000000;
     --background: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),       
