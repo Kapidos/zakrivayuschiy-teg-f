@@ -1,18 +1,27 @@
 :root {
-    --font-family: "Inter-Variable", Arial, sans-serif;
-    --accent-font: 'PressStart2P-Regular', fantasy;
-    --font-weight-regular: 400;
-    --font-weight-bold: 700;
-    --background-color:#FFFFFF;
-    --accent-color:#000000;
-    --background: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),       
-                  repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
-                  linear-gradient(#e7e7e7, #1a1a1a);
-     --border-accent:#000;
-     --sparks-filling:#ff0000;
-          
+  --font-family: "Inter-Variable", Arial, sans-serif;
+  --accent-font: "PressStart2P-Regular", fantasy;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --background-color: #ffffff;
+  --accent-color: #000000;
+  --background: repeating-linear-gradient (
+      to right,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient (
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(#e7e7e7, #1a1a1a);
+  --overlay-color: #fff;
+  --border-accent: #000;
+  --sparks-filling: #ff0000;
+}
 
-    
-    }
-  
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
