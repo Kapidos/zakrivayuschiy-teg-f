@@ -14,6 +14,7 @@
       --border-accent:#00CC14; 
       --button-text-color:#00CC14;
       --contour-heart-color: #00CC14;
+      --floppy-color:#00CC14;
     }
 }
 
@@ -26,6 +27,8 @@
     --border-accent:#00CC14;
     --button-text-color:#00CC14;
     --contour-heart-color: #00CC14;
+    --floppy-color:#00CC14;
+    
 
 
 }
@@ -40,6 +43,9 @@
     --border-accent:#000;
     --button-text-color:#FFFFFF;
     --contour-heart-color: #000;
+    --floppy-color:#fff;
+
+
         
     }
   }
@@ -53,4 +59,5 @@
     --border-accent:#000;
     --button-text-color: #FFFFFF;
     --contour-heart-color: #000;
+    --floppy-color:#fff;
   }
