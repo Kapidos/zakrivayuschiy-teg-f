@@ -54,9 +54,6 @@
   padding-block-end: 25px;
 }
 
-.theme-menu {
-}
-
 .button:before:disabled {
   pointer-events: none;
 }
