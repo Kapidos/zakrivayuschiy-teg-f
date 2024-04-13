@@ -83,7 +83,9 @@
 }
 
 .theme-menu__button:focus:after {
+  outline: none;
   width: 100%;
+  opacity: 0.6;
 }
 
 .theme-menu__button:focus {
@@ -208,6 +210,7 @@
   align-items: center;
   border: 2px solid transparent;
   height: 38px;
+  cursor: pointer;
 }
 
 .card__icon-button:focus {
@@ -231,6 +234,10 @@
   font-family: var(--accent-font), fantasy;
   cursor: pointer;
   font-size: 14px;
+}
+
+.card__like-button:focus-visible {
+  border-color: var(--accent-color);
 }
 
 .card__like-button:focus {
@@ -257,59 +264,25 @@
   width: 100%;
 }
 
-.like-icon:hover .core {
-  fill: var(--accent-color);
-  transition: 0.3s linear;
-}
-
-.like-icon:hover .main-body {
-  fill: var(--accent-color);
-  transition: 0.3s linear 0.05s;
-}
-
-.like-icon .core {
-  fill: transparent;
-  transition: 0.3s linear;
-}
-
-.like-icon .main-body {
-  fill: transparent;
-  transition: 0.3s linear;
-}
-
-.like-icon.is-liked .core {
-  fill: var(--sparks-filling);
-  transition: 0.3s ease-in-out;
-}
-
-.like-icon.is-liked .main-body {
-  fill: var(--sparks-filling);
-  transition: 0.3s ease-in-out;
-}
-
-.like-icon.is-liked .contour {
-  fill: var(--sparks-filling);
-  transition: 0.3s ease-in-out 0.06s;
-}
-
-.is-liked .heart {
-  animation: like-skale 0.3s ease-in 0.1s alternate;
-}
-
-.is-liked .sparks {
-  animation: like-shine 0.3s ease-in 0.3s alternate;
-}
-
 .save {
   display: flex;
   background-color: var(--background-color);
   margin: 0 auto;
-  min-width: 335px;
-  min-height: 55px;
+  max-width: 335px;
+  height: 55px;
   align-items: center;
   justify-content: center;
   gap: 10px;
   margin-block-end: 103px;
+}
+
+.save:focus {
+  outline: none;
+  box-shadow: 2px 2px 0 0 var(--accent-color);
+}
+
+.save:focus-visible {
+  border-color: var(--accent-color);
 }
 
 dialog:not([open]) {
@@ -323,7 +296,7 @@ dialog:not([open]) {
 }
 
 dialog::backdrop {
-  background-color: rgb(0 0 0 / 0.8);
+  background-color: rgb(0 0 0 / 75%);
 }
 
 .modal-window {
@@ -391,9 +364,26 @@ dialog::backdrop {
     padding-block-start: 123px;
     height: 326px;
   }
+
+  .card__title {
+    padding: 7px 10px;
+  }
+
+  .card__item-parag {
+    padding: 26px ;
+  }
+
   .save {
     width: 306px;
     height: 84px;
     flex-direction: column;
   }
+  .text-overlay {
+    right: 13px;
+    top: 19px;
+  }
+
+  .card__item-text:last-child {
+    margin-block-end: 0px;
+}
 }
