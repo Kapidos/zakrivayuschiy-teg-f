@@ -388,3 +388,15 @@ dialog::backdrop {
 .image8 {
   filter: sepia(0.6) saturate(390%);
 }
+
+@media (width <= 380px) {
+  .header {
+    padding-block-start: 123px;
+    height: 326px;
+  }
+  .save {
+    width: 306px;
+    height: 84px;
+    flex-direction: column;
+  }
+}
