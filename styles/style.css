@@ -268,7 +268,7 @@
   display: flex;
   background-color: var(--background-color);
   margin: 0 auto;
-  max-width: 335px;
+  width: 335px;
   height: 55px;
   align-items: center;
   justify-content: center;
@@ -293,7 +293,17 @@ dialog:not([open]) {
 .floppy {
   mix-blend-mode: difference;
   color: var(--floppy-color);
+  width: 21px;
+  height: 21px;
 }
+
+.floppy1 {
+  mix-blend-mode: difference;
+  color: var(--floppy-color);
+  width: 39px;
+  height: 39px;
+}
+
 
 dialog::backdrop {
   background-color: rgb(0 0 0 / 75%);
@@ -385,5 +395,10 @@ dialog::backdrop {
 
   .card__item-text:last-child {
     margin-block-end: 0px;
+}
+
+.floppy {
+  width: 28px;
+  height: 28px;
 }
 }
