@@ -90,6 +90,7 @@
 
 .theme-menu__button:focus {
   outline: none;
+  opacity: 0.6; 
 }
 
 .theme-menu__button:hover,
