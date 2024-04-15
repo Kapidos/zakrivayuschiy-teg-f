@@ -5,14 +5,14 @@
   --font-weight-bold: 700;
   --background-color: #ffffff;
   --accent-color: #000000;
-  --background: repeating-linear-gradient (
+  --background: repeating-linear-gradient(
       to right,
       #d3d3d3,
       #d3d3d3 2px,
       transparent 2px,
       transparent 4px
     ),
-    repeating-linear-gradient (
+    repeating-linear-gradient(
       #d3d3d3,
       #d3d3d3 2px,
       transparent 2px,
