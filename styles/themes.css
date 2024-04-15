@@ -6,17 +6,11 @@
 */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color: #000000;
+  --background-color: #000;
   --accent-color: #00cc14;
-  --background: repeating-linear-gradient(
-      to right,
-      #000,
-      #000 2px,
-      transparent 2px,
-      transparent 4px
-    ),
-    repeating-linear-gradient(#000, #000 2px, transparent 2px, transparent 4px),
-    linear-gradient(#007f0c, #004306);
+  --background: repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
+                repeating-linear-gradient(#000, #000 2px, transparent 2px, transparent 4px),
+                linear-gradient(#007f0c, #004306);
   --border-accent: #00cc14;
   --button-text-color: #00cc14;
   --contour-heart-color: #00cc14;
@@ -28,17 +22,11 @@
 }
 
 :root.theme-dark {
-  --background-color: #000000;
+  --background-color: #000;
   --accent-color: #00cc14;
-  --background: repeating-linear-gradient(
-      to right,
-      #000,
-      #000 2px,
-      transparent 2px,
-      transparent 4px
-    ),
-    repeating-linear-gradient(#000, #000 2px, transparent 2px, transparent 4px),
-    linear-gradient(#007f0c, #004306);
+  --background: repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
+                repeating-linear-gradient(#000, #000 2px, transparent 2px, transparent 4px),
+                linear-gradient(#007f0c, #004306);
   --border-accent: #00cc14;
   --button-text-color: #00cc14;
   --contour-heart-color: #00cc14;
@@ -50,22 +38,11 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #ffffff;
+    --background-color: #fff;
     --accent-color: #000000;
-    --background: repeating-linear-gradient(
-        to right,
-        #d3d3d3,
-        #d3d3d3 2px,
-        transparent 2px,
-        transparent 4px
-      ),
-      repeating-linear-gradient(
-        #d3d3d3,
-        #d3d3d3 2px,
-        transparent 2px,
-        transparent 4px
-      ),
-      linear-gradient(#e7e7e7, #1a1a1a);
+    --background: repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+                  repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+                  linear-gradient(#e7e7e7, #1a1a1a);
     --border-accent: #000;
     --button-text-color: #ffffff;
     --contour-heart-color: #000;
@@ -77,22 +54,11 @@
 }
 
 :root.theme-light {
-  --background-color: #ffffff;
+  --background-color: #fff;
   --accent-color: #000000;
-  --background: repeating-linear-gradient(
-      to right,
-      #d3d3d3,
-      #d3d3d3 2px,
-      transparent 2px,
-      transparent 4px
-    ),
-    repeating-linear-gradient(
-      #d3d3d3,
-      #d3d3d3 2px,
-      transparent 2px,
-      transparent 4px
-    ),
-    linear-gradient(#e7e7e7, #1a1a1a);
+  --background: repeating-linear-gradient(to right,#d3d3d3,#d3d3d3 2px, transparent 2px, transparent 4px),
+                repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+                linear-gradient(#e7e7e7, #1a1a1a);
   --border-accent: #000;
   --button-text-color: #ffffff;
   --contour-heart-color: #000;
