@@ -84,7 +84,6 @@
 
 .theme-menu__button:focus:after {
   outline: none;
-  width: 100%;
   opacity: 0.6;
 }
 
